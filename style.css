@@ -61,18 +61,66 @@ a:active {
 }
 .columnstyle {
     display: flex;
-    max-width: 140%;
     gap: 1rem;
     justify-content: center;
+    row-gap: 1rem;
+
     
 }
 
-.vid {
-    display: flex;
-    gap: 1rem;
-    justify-content: center;
+.logo {
+    border-radius: 100%;
+
+    filter: saturate(130%);
+
+    display: block;
+    object-fit: cover;
+    max-width: 100%;
+
+    font-style: italic;
+    color: gray;
+
 }
 
-img {
-    object-fit: cover;
+.vid {
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1rem;
+    
 }
+
+.randomshit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+    gap: 1rem;
+}   
+
+img {
+    display: block;
+    object-fit: cover;
+    max-width: 140%;
+
+    font-style: italic;
+    color: gray;
+
+    border-radius: 100%;
+
+}
+
+.inlineimg {
+    filter: saturate(100%);
+    border-radius: 1rem;
+
+    display: block;
+    object-fit: cover;
+    max-width: 100%;
+
+    font-style: italic;
+    color: gray;
+
+}
+
